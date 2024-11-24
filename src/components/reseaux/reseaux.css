@@ -1,0 +1,26 @@
+.titreNom {
+    position: relative;
+    color: #FFFACD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4vw;
+    letter-spacing: .02em;
+    line-height: .9em;
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    transition: text-shadow 0.3s; 
+}
+
+.containerLogo {
+    position: fixed;
+    bottom: 0;
+    right: 24px;
+    padding: 5px;
+    z-index: 100;
+}
+
+.lienRe {
+    color: #FFFACD;
+    text-decoration: none;
+}
