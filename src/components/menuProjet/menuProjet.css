@@ -1,12 +1,26 @@
+@keyframes slideInFromLeft {
+    from {
+        transform: translateY(100%) perspective(500px) rotateY(60deg); 
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) perspective(500px) rotateY(30deg); 
+        opacity: 1;
+    }
+}
+
 .menu {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    transform: perspective(500px) rotateY(30deg);
+    transform: perspective(500px) rotateY(30deg); 
     text-align: center;
     position: absolute;
-    /* top: 30vh; */
+    animation: slideInFromLeft 1.5s ease-in-out; 
+    opacity: 1;
 }
+
+
 
 .menu ul li {
     position: relative;
@@ -125,6 +139,16 @@
 @media (max-width: 480px) {
     .menu {
         transform: none; 
+    }
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateY(100%) perspective(500px) rotateY(60deg); 
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0) perspective(500px) rotateY(0deg); 
+            opacity: 1;
+        }
     }
 
     .menu h2, 

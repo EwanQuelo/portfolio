@@ -27,18 +27,42 @@
     font-family: 'Bebas Neue', cursive;
     text-align: right;
     display: block;
-    transition: transform 0.3s ease-in-out, color 0.5s ease; 
+    transition: color 0.5s ease, transform 0.3s ease-in-out; 
 }
+
+/* .menuRight a::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    background-color: #4d028f; 
+    z-index: -1; 
+    transform: scaleX(0);
+    transform-origin: right; 
+    transition: transform 0.3s ease-in-out; 
+} */
+
 /* Pour les éléments pairs */
 .menuRight li:nth-child(even) a:hover {
-    color: #FFFACD; 
-    transform: scale(1.3) rotate(-2deg); 
+    color: #FFFACD;
+    transform: scale(1.3) rotate(-2deg);
     text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Le carré */
+    /* &::before {
+        transform: scaleX(1); 
+    } */
 }
 
 /* Pour les éléments impairs */
 .menuRight li:nth-child(odd) a:hover {
-    color: #FFFACD; 
+    color: #FFFACD;
     transform: scale(1.3) rotate(2deg);
     text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Le carré  */
+    /* &::before {
+        transform: scaleX(1); 
+    } */
 }
+
