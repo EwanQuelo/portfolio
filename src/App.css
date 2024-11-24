@@ -4,10 +4,11 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   /* background-color: #0B1215; */
-  background-color:blueviolet;
+  background-color: blueviolet;
   /* background-color: #191970; */
   color: #fff;
-  overflow-x: hidden; /* Empêche le défilement horizontal */
+  overflow-x: hidden;
+  /* Empêche le défilement horizontal */
   height: 100vh;
 }
 
@@ -62,3 +63,20 @@ section h2 {
   margin-bottom: 20px;
 } */
 
+.menuPhone {
+  display: none;
+}
+/* MEDIA QUERIES */
+
+/* Écrans inférieurs à 768px  */
+@media (max-width: 768px) {}
+
+/* Écrans inférieurs à 480px  */
+@media (max-width: 480px) {
+  .menuPhone {
+    display: block;
+  }
+  .queryPhone {
+    display: none;
+  }
+}

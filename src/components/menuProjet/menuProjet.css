@@ -14,12 +14,14 @@
 
 .menu ul {
     text-align: left;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 
 .menu h2 {
     position: relative;
-    left: 40px;
+    left: 4vw;
     margin-bottom: 20px;
     font-family: 'Bebas Neue', cursive;
     color: #dbd27e;
@@ -33,7 +35,7 @@
 }
 
 .titreMenu {
-    left: 40px;
+    left: 4vw;
     
     position: relative;
     color: #FFFACD;
@@ -69,14 +71,14 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    left: 40px;
+    left: 4vw;
     gap: 5px;
 }
 
 .project-date {
     position: relative;
     font-weight: bold;
-    left: 50px;
+    left: 4vw;
     font-family: 'Bebas Neue';
     font-weight: 700;
     color: #dbd27e;
@@ -96,3 +98,45 @@
 } 
 */
 
+
+/* MEDIA QUERIES */
+
+/* Écrans inférieurs à 768px  */
+@media (max-width: 768px) {
+    .menu {
+        transform: none; 
+    }
+
+    .menu h2, 
+    .titreMenu {
+        font-size: 6vw; 
+    }
+
+    .project-date {
+        font-size: 1rem; 
+    }
+
+    .project-description {
+        font-size: 0.8rem; 
+    }
+}
+
+/* Écrans inférieurs à 480px  */
+@media (max-width: 480px) {
+    .menu {
+        transform: none; 
+    }
+
+    .menu h2, 
+    .titreMenu {
+        font-size: 13vw; 
+    }
+
+    .project-date {
+        font-size: 1rem;
+    }
+
+    .project-description {
+        font-size: 1.2rem;
+    }
+}
