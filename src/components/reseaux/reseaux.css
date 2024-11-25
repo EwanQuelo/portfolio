@@ -1,4 +1,4 @@
-.titreNom {
+/* .titreNom {
     position: relative;
     color: #FFFACD;
     text-decoration: none;
@@ -10,7 +10,7 @@
     font-family: 'Bebas Neue', cursive;
     text-align: right;
     transition: text-shadow 0.3s; 
-}
+} */
 
 .containerLogo {
     position: fixed;

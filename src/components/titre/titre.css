@@ -27,11 +27,12 @@
     left: 0;
     bottom: -5px;
     width: 100%;
-    height: 2px;
-    background-color: #dbd27e;
+    height: 0.4vw;
+    background-color: #FFFACD;
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.4s ease; 
+    border-radius: 10px;
 }
 
 .titreNom:hover::after {
