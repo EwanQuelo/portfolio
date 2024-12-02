@@ -8,8 +8,11 @@ const projects = [
     { title: "Good or Not", date: "2024", description: "Jeu pour vision os" },
     { title: "V.OS Form", date: "2023", description: "Formulaires simple pour vision os" },
     { title: "Portfolio1", date: "2023", description: "Portfolio en html/css uniquement" },
-    { title: "weather app", href: "", date: "2022", description: "app web html/css" },
-    { title: "calculatrice", href: "", date: "2022", description: "calculatrice html/css" },
+    { title: "Projet blabla", date: "2023", description: "Projet blabla" },
+    { title: "Projet blabla", date: "2023", description: "Projet blabla" },
+    { title: "Projet blabla", date: "2023", description: "Projet blabla" },
+    // { title: "weather app", href: "", date: "2022", description: "app web html/css" },
+    // { title: "calculatrice", href: "", date: "2022", description: "calculatrice html/css" },
 ];
 
 const Menu = () => {
