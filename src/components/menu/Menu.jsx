@@ -8,7 +8,7 @@ const Menu = () => {
         <nav className="menuRight">
             <ul className="">
                 <li><a href="#about">À propos</a></li>
-                <li><a href="#projects">mon CV</a></li>
+                <li><a href="#cv">mon CV</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
