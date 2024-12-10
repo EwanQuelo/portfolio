@@ -1,0 +1,199 @@
+.project-page {
+    /* background-color: black;
+    justify-content: left; */
+    height: 80vh;
+}
+
+.project-page h2 {
+    left: 4vw;
+    
+    position: relative;
+    color: #FFFACD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 8vw;
+    letter-spacing: .02em;
+    line-height: .9em;
+    transition: color .5s,opacity .5s; 
+    font-family: 'Bebas Neue', cursive; 
+    
+    text-align: left;
+
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.desc-projet {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.75vw;
+    max-width: 60%;
+    left: 4vw;
+    position: relative;
+    
+}
+
+.project-links {
+    left: 4vw;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.github-btn {
+    background-color: #FFFACD;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-btn {
+    background-color: #FFFACD;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn  {
+    margin-left: 20px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+
+    transform: scale(1.3) rotate(-2deg);
+
+
+    transition: all 0.3s ease-in-out;
+}
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #FFFACD;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-button:hover {
+    color: #FFFACD;
+    transform: scale(1.3) rotate(-2deg);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.back-button svg {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    stroke: #FFFACD;
+    transition: transform 0.3s ease-in-out;
+}
+
+.back-button:hover svg {
+    animation: clignottantVoiture 1s infinite;
+}
+
+@keyframes clignottantVoiture {
+    0%, 100% {
+        transform: translateX(0);
+        stroke: #FFFACD;
+    }
+    50% {
+        transform: translateX(10px);
+        stroke: #666450;
+    }
+}
+
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    left: 4vw;
+    position: relative;
+    max-width: 60%;
+}
+
+.gallery-image {
+    width: 35vh;
+    height: 20vh;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.gallery-image:nth-child(even):hover {
+    transform: scale(1.1) rotate(-2deg);
+    transition: all 0.3s ease-in-out;
+}
+.gallery-image:nth-child(odd):hover {
+    transform: scale(1.1) rotate(2deg);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.886);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-image {
+    width: 80vh;
+    height: auto;
+    max-width: 90vw;
+    border-radius: 5px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;
+}
