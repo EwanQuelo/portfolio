@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export const projects = [
     { id: 11, color: "#FF0000", title: "TCG Poké Web", date: "2024", description: "Jeu d'ouverture de booster Pokémon en ligne", descDetaille: "Blabla le projet façon détaillé", projectUrl: "", gallery: [
+        "https://i.postimg.cc/cC5TZfnK/CPT2412121947-1512x832.gif",
         "https://i.postimg.cc/NjjRsK4Y/image.png",
         "https://i.postimg.cc/k4Q2FCcf/image.png",
         "https://i.postimg.cc/SRmJgP1q/image.png",
