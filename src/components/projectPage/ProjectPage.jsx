@@ -33,7 +33,7 @@ const ProjectPage = () => {
             <style>
                 {`
                     body { 
-                        background-color: ${project.color};
+                        background-color: ${project.color };
                     }
                 `}
             </style>

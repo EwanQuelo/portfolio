@@ -138,7 +138,8 @@
     margin-top: 20px;
     left: 4vw;
     position: relative;
-    max-width: 60%;
+    max-width: 65%;
+    
 }
 
 .gallery-image {
@@ -147,16 +148,19 @@
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.3s ease;
-    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
 
 .gallery-image:nth-child(even):hover {
+    z-index: 30;
     transform: scale(1.1) rotate(-2deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
 }
 .gallery-image:nth-child(odd):hover {
+    z-index: 30;
     transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
