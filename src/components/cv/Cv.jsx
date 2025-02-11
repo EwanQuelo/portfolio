@@ -9,7 +9,7 @@ const Cv = () => {
                 <h1>CV 2025</h1>
                 {/* Ajout du PDF */}
                 <iframe 
-                    src="/cv2024.pdf" 
+                    src="/CV2025.pdf" 
                     title="CV 2025" 
                     width="500vw" 
                     height="700px" 
