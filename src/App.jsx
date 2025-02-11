@@ -6,6 +6,9 @@ import Titre from './components/titre/Titre';
 import Menu from './components/menu/Menu';
 import Reseaux from './components/reseaux/Reseaux';
 import ProjectPage from './components/projectPage/ProjectPage';
+import Apropos from './components/apropos/Apropos'
+import OngletContact from './components/contact/OngletContact';
+import Cv from './components/cv/Cv';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
           <Routes>
             <Route path="/" element={<MenuProjet />} />
             <Route path="/projet/:id" element={<ProjectPage />} />
+            <Route path="/apropos" element={<Apropos />} /> 
+            <Route path="/contact" element={<OngletContact />} /> 
+            <Route path="/cv" element={<Cv />} /> 
           </Routes>
         </main>
       </div>
