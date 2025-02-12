@@ -42,11 +42,7 @@ const Apropos = () => {
         </section>
       </section>
 
-      <section className="competences">
-        <h2>Mes compétences</h2>
-        <p>......PROBLÈME DE COMPTABILITÉ NUAGE</p>
-        {/* Ajoutez un nuage de logos ou widgets ici */}
-      </section>
+      
 
       <section className="experiences">
         <h2>Mes expériences professionnelles</h2>

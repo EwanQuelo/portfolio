@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const projects = [
     
     {
-        id: 13, title: "OBJ Detector", date: "2025", description: "Notebook permettant de detecter un type d'objet", descDetaille: "e", githubUrl: "https://github.com/EwanQuelo/simple-objet-detector/blob/e51261072d9396c73e066c16e94b2438ba5ceac1/detection-img.ipynb", gallery: [
+        id: 13, title: "OBJ Detector", date: "2025", description: "Notebook permettant de detecter un type d'objet", descDetaille: "En utilisant le modèle entraîné de YoloV11 avec PyTorch ce notebook permet de classer les objets qu'il voit.", githubUrl: "https://github.com/EwanQuelo/simple-objet-detector/blob/e51261072d9396c73e066c16e94b2438ba5ceac1/detection-img.ipynb", gallery: [
             "https://i.postimg.cc/xdMMj5CL/image.png",
             "https://i.postimg.cc/Kz3V8dTJ/image.png",
             "https://i.postimg.cc/vHtrf3Lh/image.png"
