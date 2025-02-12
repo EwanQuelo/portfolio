@@ -30,7 +30,7 @@ export const projects = [
         ],
     },
     {
-        id: 10, color: "#1D99DB", title: "Portfolio", date: "2024", description: "Site sur lequel vous naviguez", descDetaille: "Blabla le projet façon détaillé Blabla le projet façon détaillé Blabla le projet façon détaillé Blabla le projet façon détaillé ", githubUrl: "https://github.com/ewanquelo", projectUrl: "ewanquelo.com", gallery: [
+        id: 10, color: "#1D99DB", title: "Portfolio", date: "2024", description: "Site sur lequel vous naviguez", descDetaille: "Voici mon portfolio React sur lequel vous naviguez. Il est hebergé sur un VPS Oracle, j'utilise également nginx et CLoudflare. Il n'est pas encore totalement responsive. L'objectif était de montrer différents projets que je réalise sur mon temps personnels ou lors de mon année scolaire. ", githubUrl: "https://github.com/ewanquelo", projectUrl: "ewanquelo.com", gallery: [
             "https://i.postimg.cc/cJ4W5S0F/image.png",
             "https://i.postimg.cc/76jy6J7R/image.png",
             "https://i.postimg.cc/G3sCfznn/image.png",

@@ -140,6 +140,7 @@
     position: relative;
     max-width: 65%;
     
+    
 }
 
 .gallery-image {
@@ -149,6 +150,7 @@
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 5px;
+    margin-bottom: 2vw;
 }
 
 .gallery-image:nth-child(even):hover {
