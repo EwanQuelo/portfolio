@@ -1,0 +1,31 @@
+.cv-section h1 {
+    left: 4vw;
+    
+    position: relative;
+    color: #FFFACD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 5vw;
+    letter-spacing: .02em;
+    line-height: .9em;
+    transition: color .5s,opacity .5s; 
+    font-family: 'Bebas Neue', cursive; 
+    
+    text-align: left;
+
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cv-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cv-container iframe {
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
